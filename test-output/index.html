@@ -104,22 +104,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.LoginTest" class="method navigator-link" hash-for-method="testCaseFour">testCaseFour</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.DependsOnMethod" class="method navigator-link" hash-for-method="testCaseFour">testCaseFour</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.LoginTest" class="method navigator-link" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.DependsOnMethod" class="method navigator-link" hash-for-method="testCaseOne">testCaseOne</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.LoginTest" class="method navigator-link" hash-for-method="testCaseThree">testCaseThree</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.DependsOnMethod" class="method navigator-link" hash-for-method="testCaseThree">testCaseThree</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="core.LoginTest" class="method navigator-link" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="core.DependsOnMethod" class="method navigator-link" hash-for-method="testCaseTwo">testCaseTwo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,7 +137,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">core.LoginTest</span>
+              <span class="class-name">core.DependsOnMethod</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -182,7 +182,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;core.LoginTest&quot;/&gt;
+      &lt;class name=&quot;core.DependsOnMethod&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -224,26 +224,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCaseFour')
-data.setCell(0, 2, 'core.LoginTest')
-data.setCell(0, 3, 3419);
+data.setCell(0, 1, 'testCaseOne')
+data.setCell(0, 2, 'core.DependsOnMethod')
+data.setCell(0, 3, 906);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCaseThree')
-data.setCell(1, 2, 'core.LoginTest')
-data.setCell(1, 3, 3154);
+data.setCell(1, 2, 'core.DependsOnMethod')
+data.setCell(1, 3, 311);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testCaseOne')
-data.setCell(2, 2, 'core.LoginTest')
-data.setCell(2, 3, 363);
+data.setCell(2, 1, 'testCaseFour')
+data.setCell(2, 2, 'core.DependsOnMethod')
+data.setCell(2, 3, 291);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testCaseTwo')
-data.setCell(3, 2, 'core.LoginTest')
-data.setCell(3, 3, 291);
+data.setCell(3, 2, 'core.DependsOnMethod')
+data.setCell(3, 3, 240);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -269,54 +269,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">core.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">core.DependsOnMethod</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCaseThree</span>
-                <span class="method-start">34785 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">37954 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">39143 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testCaseFour</span>
-                <span class="method-start">65469 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">68893 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">70495 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">testCaseOne</span>
-                <span class="method-start">86433 ms</span>
+                <span class="method-start">16164 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">86798 ms</span>
+                <span class="method-start">17076 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">88032 ms</span>
+                <span class="method-start">17795 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCaseTwo</span>
-                <span class="method-start">100176 ms</span>
+                <span class="method-start">27536 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">100475 ms</span>
+                <span class="method-start">27778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">28132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCaseThree</span>
+                <span class="method-start">34578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">34894 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">35180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCaseFour</span>
+                <span class="method-start">43402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">43696 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

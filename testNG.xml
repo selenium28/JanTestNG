@@ -3,7 +3,7 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="core.LoginTest"/>
+      <class name="core.DependsOnMethod"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
