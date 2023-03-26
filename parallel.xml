@@ -2,13 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="false" name="Suite">
   <test name="Test">
-	  <groups>
-		  <run>
-			  <include name="regression"></include>
-		  </run>
-	  </groups>
     <classes>
-      <class name="para.GroupingClass"/>
+      <class name="para.Parameterization"/>
+      <class name="core.DemoTestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

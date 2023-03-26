@@ -3,16 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="core.DependsOnMethod">
+      <class name="core.DemoTestNG">
         <methods>
-          <include name="afterMethod"/>
-          <include name="testCaseOne"/>
-          <include name="beforeMethod"/>
-          <include name="testCaseThree"/>
-          <include name="testCaseTwo"/>
-          <include name="testCaseFour"/>
+          <include name="display"/>
         </methods>
-      </class> <!-- core.DependsOnMethod -->
+      </class> <!-- core.DemoTestNG -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
