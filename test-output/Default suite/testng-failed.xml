@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="para.DataProviderTest">
+      <class name="asert.AssertConcept">
         <methods>
-          <include name="dataRead"/>
+          <include name="assertVerification"/>
         </methods>
-      </class> <!-- para.DataProviderTest -->
+      </class> <!-- asert.AssertConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
